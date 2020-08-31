@@ -653,7 +653,7 @@ a.reqe-button {
 }
 
 .banner-top3 {
-    background: url(../images/4.jpg) no-repeat 0px 0px;
+    background: url(../images/4.png); 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1110,7 +1110,7 @@ ol.carousel-indicators {
 
 /* stats */
 .stats-info {
-    background: url(../images/4.jpg) no-repeat center;
+    background: url(../images/4.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
