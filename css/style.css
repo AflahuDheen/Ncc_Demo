@@ -899,7 +899,7 @@ legend {
     margin: 0 auto;
     text-align: center;
     font-size: 27px;
-    font-family: 'Niconne', cursive;
+    font-family: stencil;
 }
 
 fieldset.contact-top1 {
@@ -911,6 +911,7 @@ fieldset.contact-top1 {
 .address {
     padding: 3.5em;
     margin-top: 4em;
+    
 }
 
 .address-right p,

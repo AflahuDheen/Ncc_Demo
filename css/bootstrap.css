@@ -3083,12 +3083,12 @@ fieldset:disabled a.btn {
   border-radius: 0.2rem;
 }
 
-.btn-block {
+.btn-outline-info {
   display: block;
   width: 100%;
 }
 
-.btn-block + .btn-block {
+.btn-outline-info + .btn-outline-info {
   margin-top: 0.5rem;
 }
 
