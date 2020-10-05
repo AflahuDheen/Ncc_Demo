@@ -10,6 +10,7 @@ body {
     margin: 0;
     background: #FFF;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body a,
@@ -58,7 +59,7 @@ p {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.9;
-    color: #999;
+    /* color: #999; */
 }
 
 ul,
@@ -93,7 +94,7 @@ a:hover {
 }
 
 .text-wh {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .bg-wh {
@@ -102,6 +103,8 @@ a:hover {
 
 .text-li {
     color: #f8f9fa;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .bg-li {
@@ -343,11 +346,11 @@ a.reqe-button {
         letter-spacing: 1px;
         cursor: pointer;
         margin-top: 8px;
-        transition: 0.5s all;
-        -webkit-transition: 0.5s all;
-        -moz-transition: 0.5s all;
-        -o-transition: 0.5s all;
-        -ms-transition: 0.5s all;
+        transition: 1s all;
+        -webkit-transition: 1s all;
+        -moz-transition: 1s all;
+        -o-transition: 1s all;
+        -ms-transition: 1s all;
     }
 
     .toggle.toogle-2:hover {
@@ -358,7 +361,7 @@ a.reqe-button {
         -o-transition: 0.5s all;
         -ms-transition: 0.5s all;
     }
-
+    
     .toggle.toggle-drop {
         float: none;
         text-align: center;
@@ -626,7 +629,7 @@ a.reqe-button {
 }
 
 .banner-top {
-    background: url(../images/3.jpg) ;
+    background: url(../images/1.jpg) ;
     background-size: 10px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -644,7 +647,7 @@ a.reqe-button {
 }
 
 .banner-top2 {
-    background: url(../images/1.jpg) no-repeat top;
+    background: url(../images/3.jpg) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -653,7 +656,7 @@ a.reqe-button {
 }
 
 .banner-top3 {
-    background: url(../images/4.png); 
+    background: url(../images/4.jpg); 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -986,7 +989,9 @@ fieldset.contact-top1 {
     text-decoration: none;
     color: #000;
 }
-
+#popup{
+    
+}
 .popup .close:hover {
     color: #FF5722;
 }
